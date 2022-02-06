@@ -3,7 +3,7 @@ const fs = require('fs');
 const solc = require('solc');
 
 //find the contract code
-const lotteryPath = path.resolve(__dirname, 'contracts', 'Loterry.sol');
+const lotteryPath = path.resolve(__dirname, 'contracts', 'Lottery.sol');
 //read and store the contract content
 const source = fs.readFileSync(lotteryPath, 'utf8');
 
